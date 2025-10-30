@@ -44,6 +44,7 @@ namespace Rock_Paper_Scissors_Project
             this.lblGameCount = new System.Windows.Forms.Label();
             this.lblPlayerChoice = new System.Windows.Forms.Label();
             this.lblComputerChoice = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -52,7 +53,7 @@ namespace Rock_Paper_Scissors_Project
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Tahoma", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Lime;
-            this.label1.Location = new System.Drawing.Point(276, 19);
+            this.label1.Location = new System.Drawing.Point(262, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(368, 42);
             this.label1.TabIndex = 0;
@@ -61,9 +62,10 @@ namespace Rock_Paper_Scissors_Project
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Tahoma", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Red;
-            this.label2.Location = new System.Drawing.Point(359, 71);
+            this.label2.Location = new System.Drawing.Point(347, 63);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(194, 33);
             this.label2.TabIndex = 1;
@@ -230,6 +232,18 @@ namespace Rock_Paper_Scissors_Project
             this.lblComputerChoice.TabIndex = 14;
             this.lblComputerChoice.Tag = "0";
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Tahoma", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Magenta;
+            this.label3.Location = new System.Drawing.Point(393, 142);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(96, 35);
+            this.label3.TabIndex = 15;
+            this.label3.Text = "Score";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -237,6 +251,7 @@ namespace Rock_Paper_Scissors_Project
             this.BackColor = System.Drawing.Color.Black;
             this.BackgroundImage = global::Rock_Paper_Scissors_Project.Properties.Resources.Photo;
             this.ClientSize = new System.Drawing.Size(898, 724);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.lblComputerChoice);
             this.Controls.Add(this.lblPlayerChoice);
             this.Controls.Add(this.lblGameCount);
@@ -277,6 +292,7 @@ namespace Rock_Paper_Scissors_Project
         private System.Windows.Forms.Label lblGameCount;
         private System.Windows.Forms.Label lblPlayerChoice;
         private System.Windows.Forms.Label lblComputerChoice;
+        private System.Windows.Forms.Label label3;
     }
 }
 

@@ -65,7 +65,7 @@ namespace Rock_Paper_Scissors_Project
             pen.StartCap = System.Drawing.Drawing2D.LineCap.Flat;
             pen.EndCap = System.Drawing.Drawing2D.LineCap.Flat;
 
-            e.Graphics.DrawLine(pen, 430, 140, 430, 400);
+            e.Graphics.DrawLine(pen, 430, 190, 430, 400);
         }
 
         enChoice GetComputerChoice()
