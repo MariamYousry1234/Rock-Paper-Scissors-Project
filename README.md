@@ -42,6 +42,3 @@ The app displays both choices, determines the winner, and keeps track of the sco
 
 ## 📌 Author
 Created by **Mariam Yousry** ✨ 
-
-## 📌 Author
-Created by **Mariam Yousry** ✨  
