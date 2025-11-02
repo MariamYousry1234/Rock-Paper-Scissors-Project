@@ -130,7 +130,7 @@ namespace Rock_Paper_Scissors_Project
             }
         }
 
-        void PrintGameInfo(stGameInfo GameInfo)
+        void ShowGameInfo(stGameInfo GameInfo)
         {
             lblGameCount.Text = lblGameCount.Tag.ToString();
             lblPlayerChoice.Text = GetStringChoice(GameInfo.PlayerChoice);
@@ -168,7 +168,7 @@ namespace Rock_Paper_Scissors_Project
 
         void StartGame(Button PlayerChoice)
         {
-            PrintGameInfo(GameInfo(PlayerChoice));
+            ShowGameInfo(GameInfo(PlayerChoice));
         }
 
         private void PlayerChoice_Click(object sender, EventArgs e)
